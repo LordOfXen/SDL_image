@@ -2242,7 +2242,7 @@ IMG_Animation *IMG_LoadAPNGAnimation_IO(SDL_IOStream *src)
     return NULL;
 }
 
-bool IMG_CreateAPNGAnimationStream(IMG_AnimationStream *stream, SDL_PropertiesID props)
+bool IMG_CreateAPNGAnimationStream(IMG_AnimationEncoderStream *stream, SDL_PropertiesID props)
 {
     (void)stream;
     (void)props;
